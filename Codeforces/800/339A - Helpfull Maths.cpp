@@ -3,15 +3,11 @@ using namespace std;
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-
     string s;
     cin >> s;
 
-    if(s.size()==1){
-      cout<<s<<endl;
+    if(s.size() == 1){
+      cout<< s << endl;
     }
     else{
       for(int i=0; i<s.size()-2; i+=2){
